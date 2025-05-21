@@ -27,8 +27,11 @@ Considerando o propósito do projeto descrito acima, existem somente 2 rotas, am
 
 ## Ordem dos comandos e possíveis dificuldades
 Inicialmente é necessário fazer o clone do repositório utilizando o comando **git clone**
+
 O segundo passo é fazer a instalação das dependências necessárias utilizando: composer install
+
 Após concluido a instalação, é aconselhavel verificar as pastas: 
+
 - **/storage/framework/cache**
 - **/storage/framework/views**
 - **/storage/framework/sessions**
