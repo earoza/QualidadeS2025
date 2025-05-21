@@ -33,6 +33,7 @@ Após concluido a instalação, é aconselhavel verificar as pastas:
 - **/storage/framework/views**
 - **/storage/framework/sessions**
 - **/storage/framework/testing**
+
 Caso estas pastas não estejam criadas, será necessário criá-las.
 Uma alternativa para este passo é reinstalar o laravel utilizando o comando **composer create-project laravel/laravel nome_do_projeto** e em seguida copiar os arquivos do repositório para dentro da pasta do projeto.
 Caso seja escolhido a primeira opção (criar os diretórios) fazer uma cópia do arquivo **.env.example** e renomeá-lo somente para **.env**
@@ -45,8 +46,11 @@ Por fim, se tudo estiver de acordo, **php artisan serve** para iniciar o servido
 Após estes passos a configuração do Laravel está OK
 
 Para a execução do PHPUnit:
-- Verificar se o arquivo phpunit.xml
+- Verificar se o arquivo phpunit.xml está na pasta raíz do projeto
 - Realizar a configuração do banco de dados adequado
+
+Após realizar estas verificações, o PHPUnit deve estar apto para uso.
+Para utilizar, basta rodar o comando **php artisan test**, ou o comando filtrado como apresentado na sessão anterior
 
 ## Documentação do Laravel
 
