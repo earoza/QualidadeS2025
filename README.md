@@ -28,7 +28,11 @@ Considerando o propósito do projeto descrito acima, existem somente 2 rotas, am
 ## Ordem dos comandos e possíveis dificuldades
 Inicialmente é necessário fazer o clone do repositório utilizando o comando **git clone**
 
-O segundo passo é fazer a instalação das dependências necessárias utilizando: composer install
+O segundo passo é fazer a instalação das dependências.
+
+É recomendado fazer a criação de um novo projeto utilizando o comando **composer create-project laravel/laravel nome_do_projeto** e em seguida copiar os arquivos do repositório para dentro da pasta do projeto. Este processo diminui o numero de problemas encontrados futuramente. 
+
+Caso não queira fazer o processo descrito anteriormente, ainda há a possibilidade de instalar as dependências necessárias utilizando: composer install
 
 Após concluido a instalação, é aconselhavel verificar as pastas: 
 
@@ -39,7 +43,6 @@ Após concluido a instalação, é aconselhavel verificar as pastas:
 
 Caso estas pastas não estejam criadas, será necessário criá-las.
 
-Uma alternativa para este passo é reinstalar o laravel utilizando o comando **composer create-project laravel/laravel nome_do_projeto** e em seguida copiar os arquivos do repositório para dentro da pasta do projeto.
 
 Caso seja escolhido a primeira opção (criar os diretórios) fazer uma cópia do arquivo **.env.example** e renomeá-lo somente para **.env**
 
